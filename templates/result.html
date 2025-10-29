@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Prediction Result{% endblock %}
+
+{% block content %}
+  <h2>Prediction Result</h2>
+
+  {% if prediction %}
+    <div class="result" style="display:block;">
+      <div class="value">Predicted Sales: {{ prediction }}</div>
+      <div class="note">Your model estimated sales based on the provided advertising budgets.</div>
+    </div>
+  {% else %}
+    <div class="error" style="display:block;">
+      No prediction available. Please go back and try again.
+    </div>
+  {% endif %}
+
+  <div class="controls">
+    <a href="{{ url_for('home') }}" class="btn secondary">← Back</a>
+  </div>
+{% endblock %}

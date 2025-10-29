@@ -1,0 +1,10 @@
+2025-10-29 10:21:31 | INFO | SalesPredictionApp | 🚀 Starting Flask server...
+2025-10-29 10:21:34 | INFO | SalesPredictionApp | Received prediction request from 127.0.0.1
+2025-10-29 10:21:34 | INFO | SalesPredictionApp | Input data: [230.1, 37.8, 69.2]
+2025-10-29 10:21:34 | INFO | SalesPredictionApp | Prediction successful: 22.48
+2025-10-29 10:25:19 | WARNING | SalesPredictionApp | Missing input value: Newspaper
+2025-10-29 10:25:19 | ERROR | SalesPredictionApp | Prediction failed: could not convert string to float
+2025-10-29 10:25:22 | INFO | SalesPredictionApp | User navigated to home page (/)
+2025-10-29 10:30:12 | INFO | SalesPredictionApp | Model training started.
+2025-10-29 10:30:27 | INFO | SalesPredictionApp | Model training completed successfully. R²=0.92
+2025-10-29 10:32:11 | CRITICAL | SalesPredictionApp | Model file missing: model/model.pkl
